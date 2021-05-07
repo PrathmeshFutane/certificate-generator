@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <title>webrash certificate</title>
+
+</head>
+
+<body>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 class="display-6">Get Your Certificate</h1>
+            <p class="lead">webrash certificates.</p>
+        </div>
+    </div>
+
+    
+    
+
+
+   
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col md-6 col sm">
+                <div class="container" style="width: 50%;">
+                    <div class="form-group">
+                        <label for="name">Enter Your name</label>
+                        <input type="email" class="form-control my-3" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+                        <button class="btn btn-primary" onclick="viewPdf()">View PDF</button>
+                      </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col md-6 col sm">
+                <iframe id="myPdf" src="" width="500px" height="400px" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+    
+
+    
+
+
+
+    <script src="https://unpkg.com/pdf-lib/dist/pdf-lib.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
